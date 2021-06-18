@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 import streamlit as st
 from PIL import Image
-from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt
 
 # loading in the model to predict on the data
 pickle_in = open('model.pkl', 'rb')
